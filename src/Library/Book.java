@@ -1,11 +1,11 @@
 package Library;
 
 	public class Book {
-	    private String id;
-	    private String title;
-	    private String author;
-	    private String publishYear;
-	    private String status;
+	    private String id;               //book id
+	    private String title; 			//title			
+	    private String author;			//author
+	    private String publishYear;		//publish year
+	    private String status;			//Available status
 
 	    public Book() {
 	    }
