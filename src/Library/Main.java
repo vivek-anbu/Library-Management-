@@ -6,8 +6,8 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		        Scanner sc=new Scanner(System.in);
-		          final String BLUE="\u001B[34m";
+		        Scanner s=new Scanner(System.in);
+		          final String BLUE="\u001B[34m";     // color code pattern 
 		          final String RESET="\u001B[0m";
 		     ServiceBook service=new ServiceBook();
 		     int n;
@@ -23,7 +23,7 @@ public class Main {
 		                   "8.Exit\n");
 
 		               System.out.println("Enter Your Choice :");
-		               n = sc.nextInt();
+		               n = s.nextInt();
 
 		           switch (n){
 			           			case 1: service.addUser();
